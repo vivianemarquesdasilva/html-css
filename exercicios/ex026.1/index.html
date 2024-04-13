@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+      <section>
+        <div id="login">
+            <form action="login.php" method="post" autocomplete="on">
+              <h1 class="titulo">Login</h1>
+
+              <div>                           
+              <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30" class="informacao">
+              <label for="ilogin"></label>
+              </div>
+
+              <div>
+              <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20" class="informacao">
+              <label for="isenha"></label>
+              </div>
+
+              <input type="submit" value="Entrar" class="entrar">
+            </form>
+        </div>
+      </section>  
+    </main>
+</body>
+</html>
