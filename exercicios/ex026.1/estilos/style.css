@@ -40,8 +40,7 @@ body {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.486);   
     
     
-    padding-left: 80px;
-    padding-right: 119px;
+    width: 100%;
     padding-top: 7px;
     padding-bottom: 6px;
     margin: 3.5px;
