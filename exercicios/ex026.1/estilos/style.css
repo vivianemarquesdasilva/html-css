@@ -11,13 +11,17 @@ body {
 .titulo {
     text-align: center;
     font-size: 2.3em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.473);
 }
 
 .informacao {
     background-image: linear-gradient(to right, #382B39, #2A3043);
     border: none;
-    
-    border-radius: 5px;
+    padding-left: 80px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    margin: 3.5px;
+    border-radius: 7px;    
 }
 
 #login {
@@ -33,5 +37,21 @@ body {
     background-color: #558AD7;
     color: white;
     border: none;
-    width: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.486);   
+    
+    
+    padding-left: 80px;
+    padding-right: 119px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    margin: 3.5px;
+    border-radius: 7px;
+}
+
+.informacao:hover {
+    background-color: #3E343F;
+}
+
+.entrar:hover {
+    background-color: #11305e;
 }
